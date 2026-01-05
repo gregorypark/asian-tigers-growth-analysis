@@ -36,14 +36,14 @@ This project analyzes the sources of economic growth in the Four Asian Tigers (H
 
 ## Methodology
 
-This project employs growth accounting based on the Solow (1957) framework:
+This project uses growth accounting based on the Solow framework:
 ```
-ΔY/Y = ΔA/A + α(ΔK/K) + (1-α)(ΔL/L)
+ΔY/Y = ΔZ/Z + α(ΔK/K) + (1-α)(ΔL/L)
 ```
 
 Where:
 - Y = Real GDP
-- A = Total Factor Productivity (TFP)
+- Z = Total Factor Productivity (TFP)
 - K = Capital stock
 - L = Labor input
 - α = Capital share (assumed 0.33)
@@ -65,7 +65,7 @@ TFP growth is calculated as the Solow residual.
 
 - [x] Data collection and cleaning
 - [x] GDP and per capita analysis
-- [ ] Growth accounting and TFP calculation
+- [x] Growth accounting and TFP calculation
 - [ ] Comparative econometric analysis
 - [ ] Paper writing
 
